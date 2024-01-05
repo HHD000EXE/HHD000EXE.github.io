@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Research Interests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+            header a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            header ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            header li {
+                float: left;
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            header #branding {
+                float: left;
+            }
+
+                header #branding h1 {
+                    margin: 0;
+                }
+
+            header nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+            header .highlight, header .current a {
+                color: #e8491d;
+                font-weight: bold;
+            }
+
+            header a:hover {
+                color: #ffffff;
+                font-weight: bold;
+            }
+
+        .button {
+            height: 50px;
+            background: #e8491d;
+            border: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #ffffff;
+        }
+
+        section#showcase {
+            min-height: 400px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+            section#showcase h1 {
+                margin-top: 100px;
+                font-size: 55px;
+            }
+
+        section#newsletter {
+            padding: 15px;
+            color: #ffffff;
+            background: #e8491d
+        }
+
+            section#newsletter h1 {
+                float: left;
+            }
+
+            section#newsletter form {
+                float: right;
+                margin-top: 15px;
+            }
+
+            section#newsletter input[type="email"] {
+                padding: 4px;
+                height: 25px;
+                width: 250px;
+            }
+
+        section#boxes {
+            margin-top: 20px;
+        }
+
+            section#boxes .box {
+                float: left;
+                text-align: center;
+                width: 30%;
+                padding: 10px;
+            }
+
+                section#boxes .box img {
+                    width: 90px;
+                }
+
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #e8491d;
+            text-align: center;
+        }
+
+        .video-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-container {
+            flex: 0.3; /* Adjust size as needed */
+            padding-right: 80px; /* Spacing between video and text */
+        }
+
+        .text-container {
+            flex: 0.6; /* Adjust size as needed */
+        }
+
+        video {
+            width: 100%; /* Adjust size as needed */
+            height: auto;
+        }
+
+        .image-text-container {
+            display: flex;
+            align-items: center; /* This vertically centers the items in the container */
+            margin-top: 20px; /* Add space above the container */
+        }
+
+        .image-text-container .image {
+            max-width: 1%; /* Adjust the image size as needed */
+            margin-right: 20px; /* Add some space between the image and the text */
+            margin-left: 80px; /* Add some space between the image and the text */
+        }
+
+        .image-text-container .text {
+            flex: 1; /* This allows the text container to fill up the remaining space */
+            margin-right: 200px; /* Add some space between the image and the text */
+            margin-left: 70px; /* Add some space between the image and the text */
+            text-align: justify;
+        }
+
+        .center-image {
+            display: block;
+            margin-left: 50px;
+            margin-top: 20px;
+            width: 30%; /* Adjust the width as needed */
+        }
+
+        .center-image2 {
+            display: block;
+            margin-left: 55px;
+            margin-top: 20px;
+            width: 30%; /* Adjust the width as needed */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Haodi Hu</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="research.html">Publicaitons</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="research" class="container">
+        <h2>Journal Publications</h2>
+        <div class="video-text-container">
+            <div class="video-container">
+                <video width="320" height="240" controls>
+                    <source src="TRO-navigation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="text-container">
+                <p><strong>Obstacle-Aided Path Following A Quadrupedal Robot Through Sequential Gait Composition </strong></p>
+                <p>H. Hu and F. Qian, IEEE  Transactions on Robotics (T-RO), in revision </p>
+            </div>
+        </div>
+
+        <div class="video-text-container">
+            <div class="video-container">
+                <video width="320" height="240" controls>
+                    <source src="RAL-planning.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="text-container">
+                <p><strong>Planning of Obstacle-aided Navigation for Multi-legged Robots using a Sampling-based Method over Directed Graphs  </strong></p>
+                <p>K. Chakraborty , H. Hu , M. D. Kvalheim, and F. Qian, IEEE Robotics and Automation Letters (RA-L), 2022 </p>
+            </div>
+        </div>
+
+        <div class="image-text-container">
+            <img src="Detection.jpg" alt="Image Description" class="center-image2">
+            <div class="text">
+                <p><strong>Method for detecting micron cracks on a magnetic rotor surface based on a support vector machine </strong></p>
+                <p>Hu, H., Dong, G., Peng, B., Xing, J., & Song, W. (2018). Method for detecting micron cracks on a magnetic rotor surface based on a support vector machine. IEEE Access, 6, 53141-53152.</p>
+            </div>
+        </div>
+
+        <h2>Conferences</h2>
+        <div class="image-text-container">
+            <img src="Multi-robot.png" alt="Image Description" class="center-image">
+            <div class="text">
+                <p><strong>Multi-robot connection towards collective obstacle field traversal  </strong></p>
+                <p>H Hu, E Meeks, F Qian - Bulletin of the American Physical Society, 2023 </p>
+            </div>
+        </div>
+
+        <div class="image-text-container">
+            <img src="Dog.png" alt="Image Description" class="center-image">
+            <div class="text">
+                <p><strong>RoboPhysics inspired experiments to understand how canines move over regular obstacle arrays </strong></p>
+                <p>B Doshna, M Joyce, H Hu, F Qian, S Wilshin, A Spence - Bulletin of the American Physical Society, 2023 </p>
+            </div>
+        </div>
+
+        <div class="image-text-container">
+            <img src="IROS 2020.jpg" alt="Image Description" class="center-image">
+            <div class="text">
+                <p><strong>A Mode Map Representation to Predict Steady States and Basins of Attraction for Legged Locomotion on Obstacle Terrains  </strong></p>
+                <p>H. Hu, M. Kvalheim, M. Joyce, S. Wilshin, A. Spence, F. Qian, International Conference on Intelligent Robots and Systems (IROS) workshop, 2020 </p>
+            </div>
+        </div>
+
+        <h2>Working Papers</h2>
+    </section>
+
+
+
+    <footer>
+        <p>Haodi Hu &copy; 2024</p>
+    </footer>
+</body>
+</html>
