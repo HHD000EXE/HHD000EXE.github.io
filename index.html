@@ -82,14 +82,26 @@
               </div>
 
               <div class="profile-links" id="contact">
-                <a href="mailto:myddhhhd@gmail.com">Email</a>
-                <a href="https://github.com/HHD000EXE" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="mailto:myddhhhd@gmail.com" aria-label="Email" title="Email">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3 6.75A1.75 1.75 0 0 1 4.75 5h14.5A1.75 1.75 0 0 1 21 6.75v10.5A1.75 1.75 0 0 1 19.25 19H4.75A1.75 1.75 0 0 1 3 17.25V6.75Zm1.9-.25L12 11.43l7.1-4.93H4.9Zm14.6 11V8.26l-6.93 4.82a1 1 0 0 1-1.14 0L4.5 8.26v9.24h15Z"/>
+                  </svg>
+                </a>
+                <a href="https://github.com/HHD000EXE" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.32 6.84 9.66.5.1.68-.22.68-.49 0-.24-.01-1.04-.02-1.88-2.78.62-3.37-1.21-3.37-1.21-.46-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.52 1.05 1.52 1.05.88 1.55 2.32 1.1 2.88.84.09-.66.35-1.1.63-1.35-2.22-.26-4.55-1.14-4.55-5.08 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.72 0 0 .84-.28 2.75 1.05A9.33 9.33 0 0 1 12 6.84a9.3 9.3 0 0 1 2.5.35c1.9-1.33 2.74-1.05 2.74-1.05.56 1.42.21 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.95-2.33 4.81-4.56 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.24 10.24 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/>
+                  </svg>
+                </a>
                 <a
                   href="https://www.linkedin.com/in/haodi-hu-455436194/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="LinkedIn"
+                  title="LinkedIn"
                 >
-                  LinkedIn
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6.94 8.5H3.56V19h3.38V8.5Zm.22-3.25c0-1.05-.78-1.75-1.91-1.75-1.1 0-1.88.7-1.88 1.75 0 1.02.76 1.75 1.84 1.75h.02c1.14 0 1.93-.73 1.93-1.75ZM20.5 12.56C20.5 9.33 18.77 8 16.47 8c-1.86 0-2.69 1.04-3.15 1.77V8.5H9.94c.04.85 0 10.5 0 10.5h3.38v-5.86c0-.31.02-.62.11-.84.24-.62.78-1.27 1.69-1.27 1.19 0 1.67.94 1.67 2.32V19h3.38v-5.84Z"/>
+                  </svg>
                 </a>
               </div>
 
@@ -113,15 +125,65 @@
             </div>
 
             <div class="hero-media reveal">
-              <figure class="hero-portrait hero-portrait-main">
+              <figure class="hero-portrait hero-portrait-photo hero-portrait-main">
                 <img src="Haodi%20Hu%204.jpg" alt="Portrait of Haodi Hu in a light blue blazer and white shirt." />
               </figure>
-              <figure class="hero-portrait hero-portrait-side">
+              <figure class="hero-portrait hero-portrait-photo hero-portrait-side">
                 <img src="IMG_0479.PNG" alt="Haodi Hu standing beside a robotics research poster at ICRA 2025." />
               </figure>
-              <figure class="hero-portrait hero-portrait-wide">
+              <figure class="hero-portrait hero-portrait-photo hero-portrait-wide">
                 <img src="40d4f782ad7b368eca3e9754e585e631.jpg" alt="Conference photo with collaborators." />
               </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="research">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Research Direction</p>
+              <h2>Advancing VLA-guided mobile manipulation with reinforcement learning</h2>
+              <p>
+                My current research emphasizes VLA models and RL fine-tuning for mobile manipulation,
+                especially how embodied agents recover from failures and continue long-horizon tasks
+                under uncertainty.
+              </p>
+            </div>
+
+            <div class="research-grid">
+              <article class="research-panel reveal research-panel-circles">
+                <h3>Core areas</h3>
+                <div class="circle-cluster" aria-label="Core research areas">
+                  <span class="core-circle core-circle-vla">Vision-Language-Action Models</span>
+                  <span class="core-circle core-circle-rl">Reinforcement Learning</span>
+                  <span class="core-circle core-circle-mobile">Mobile Manipulation</span>
+                  <span class="core-circle core-circle-recovery">Long-Horizon Recovery</span>
+                  <span class="core-circle core-circle-robot">Robot Learning</span>
+                  <span class="core-circle core-circle-embodied">Embodied Reasoning</span>
+                  <span class="core-circle core-circle-policy">Policy Adaptation</span>
+                  <span class="core-circle core-circle-multi">Multi-Robot Systems</span>
+                </div>
+              </article>
+
+              <article class="research-panel reveal">
+                <h3>Current emphasis</h3>
+                <ul class="clean-list">
+                  <li>RL fine-tuning for VLA models in long-horizon mobile manipulation tasks.</li>
+                  <li>Failure detection and recovery policies that keep embodied agents on task.</li>
+                  <li>Bridging high-level VLA reasoning with low-level policy adaptation.</li>
+                  <li>Learning-based decision making for manipulation in unstructured environments.</li>
+                </ul>
+              </article>
+
+              <article class="research-panel reveal">
+                <h3>Current role and trajectory</h3>
+                <ul class="clean-list">
+                  <li><strong>2026:</strong> Research Scientist Intern at MERL working on RL fine-tuning for VLA failure recovery.</li>
+                  <li><strong>2025:</strong> CoRL paper accepted on granular loco-manipulation.</li>
+                  <li><strong>2025:</strong> Co-organized the deformable objects workshop at ICRA.</li>
+                  <li><strong>2024:</strong> T-RO paper on obstacle-aided trajectory control.</li>
+                </ul>
+              </article>
             </div>
           </div>
         </section>
@@ -157,56 +219,6 @@
               <article class="timeline-item">
                 <span class="timeline-date">June 2024</span>
                 <p>T-RO paper accepted on obstacle-aided trajectory control through sequential gait composition.</p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section section-alt" id="research">
-          <div class="container">
-            <div class="section-heading reveal">
-              <p class="eyebrow">Research Direction</p>
-              <h2>Advancing VLA-guided mobile manipulation with reinforcement learning</h2>
-              <p>
-                My current research emphasizes VLA models and RL fine-tuning for mobile manipulation,
-                especially how embodied agents recover from failures and continue long-horizon tasks
-                under uncertainty.
-              </p>
-            </div>
-
-            <div class="research-grid">
-              <article class="research-panel reveal">
-                <h3>Core areas</h3>
-                <div class="tag-cluster">
-                  <span>Vision-Language-Action Models</span>
-                  <span>Reinforcement Learning</span>
-                  <span>Mobile Manipulation</span>
-                  <span>Long-Horizon Failure Recovery</span>
-                  <span>Robot Learning</span>
-                  <span>Embodied Reasoning</span>
-                  <span>Policy Adaptation</span>
-                  <span>Multi-Robot Systems</span>
-                </div>
-              </article>
-
-              <article class="research-panel reveal">
-                <h3>Current emphasis</h3>
-                <ul class="clean-list">
-                  <li>RL fine-tuning for VLA models in long-horizon mobile manipulation tasks.</li>
-                  <li>Failure detection and recovery policies that keep embodied agents on task.</li>
-                  <li>Bridging high-level VLA reasoning with low-level policy adaptation.</li>
-                  <li>Learning-based decision making for manipulation in unstructured environments.</li>
-                </ul>
-              </article>
-
-              <article class="research-panel reveal">
-                <h3>Current role and trajectory</h3>
-                <ul class="clean-list">
-                  <li><strong>2026:</strong> Research Scientist Intern at MERL working on RL fine-tuning for VLA failure recovery.</li>
-                  <li><strong>2025:</strong> CoRL paper accepted on granular loco-manipulation.</li>
-                  <li><strong>2025:</strong> Co-organized the deformable objects workshop at ICRA.</li>
-                  <li><strong>2024:</strong> T-RO paper on obstacle-aided trajectory control.</li>
-                </ul>
               </article>
             </div>
           </div>
