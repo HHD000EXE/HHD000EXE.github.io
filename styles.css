@@ -571,10 +571,11 @@ video {
   place-items: center;
   border-radius: 50%;
   text-align: center;
-  padding: 1rem;
+  padding: 0.85rem;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
+  font-size: 0.95rem;
   color: #273038;
   border: 1px solid rgba(137, 38, 67, 0.12);
   box-shadow: 0 16px 30px rgba(55, 73, 91, 0.08);
@@ -610,6 +611,7 @@ video {
   transform: translate(-28%, -92%);
   background: linear-gradient(180deg, rgba(248, 252, 253, 0.98), rgba(237, 244, 248, 0.94));
   z-index: 3;
+  font-size: 0.88rem;
 }
 
 .core-circle-recovery {
@@ -623,32 +625,33 @@ video {
 .core-circle-robot {
   width: 7rem;
   height: 7rem;
-  left: 10%;
-  bottom: 14%;
+  left: 9%;
+  top: 12%;
   background: linear-gradient(180deg, rgba(244, 249, 252, 0.98), rgba(232, 241, 247, 0.95));
 }
 
 .core-circle-embodied {
   width: 7.4rem;
   height: 7.4rem;
-  left: 42%;
-  bottom: 3%;
+  left: 36%;
+  bottom: 4%;
   background: linear-gradient(180deg, rgba(255, 252, 247, 0.98), rgba(247, 241, 235, 0.95));
 }
 
 .core-circle-policy {
   width: 6.8rem;
   height: 6.8rem;
-  right: 27%;
+  left: 12%;
   bottom: 10%;
   background: linear-gradient(180deg, rgba(242, 248, 252, 0.98), rgba(231, 239, 246, 0.95));
+  font-size: 0.83rem;
 }
 
 .core-circle-multi {
   width: 7.6rem;
   height: 7.6rem;
-  right: 1%;
-  bottom: 22%;
+  right: 3%;
+  bottom: 18%;
   background: linear-gradient(180deg, rgba(250, 252, 253, 0.98), rgba(239, 245, 249, 0.95));
 }
 
