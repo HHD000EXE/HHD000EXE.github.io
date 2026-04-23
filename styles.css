@@ -576,6 +576,7 @@ video {
   font-weight: 700;
   line-height: 1.15;
   font-size: 0.95rem;
+  overflow: hidden;
   color: #273038;
   border: 1px solid rgba(137, 38, 67, 0.12);
   box-shadow: 0 16px 30px rgba(55, 73, 91, 0.08);
@@ -604,11 +605,11 @@ video {
 }
 
 .core-circle-mobile {
-  width: 7.2rem;
-  height: 7.2rem;
+  width: 6.9rem;
+  height: 6.9rem;
   left: 50%;
   top: 50%;
-  transform: translate(-28%, -92%);
+  transform: translate(-18%, -94%);
   background: linear-gradient(180deg, rgba(248, 252, 253, 0.98), rgba(237, 244, 248, 0.94));
   z-index: 3;
   font-size: 0.88rem;
@@ -623,35 +624,35 @@ video {
 }
 
 .core-circle-robot {
-  width: 7rem;
-  height: 7rem;
-  left: 9%;
-  top: 12%;
+  width: 7.2rem;
+  height: 7.2rem;
+  left: 7%;
+  top: 11%;
   background: linear-gradient(180deg, rgba(244, 249, 252, 0.98), rgba(232, 241, 247, 0.95));
 }
 
 .core-circle-embodied {
   width: 7.4rem;
   height: 7.4rem;
-  left: 36%;
-  bottom: 4%;
+  left: 44%;
+  bottom: 1%;
   background: linear-gradient(180deg, rgba(255, 252, 247, 0.98), rgba(247, 241, 235, 0.95));
 }
 
 .core-circle-policy {
-  width: 6.8rem;
-  height: 6.8rem;
-  left: 12%;
-  bottom: 10%;
+  width: 7.35rem;
+  height: 7.35rem;
+  left: 10%;
+  bottom: 6%;
   background: linear-gradient(180deg, rgba(242, 248, 252, 0.98), rgba(231, 239, 246, 0.95));
-  font-size: 0.83rem;
+  font-size: 0.8rem;
 }
 
 .core-circle-multi {
   width: 7.6rem;
   height: 7.6rem;
   right: 3%;
-  bottom: 18%;
+  bottom: 19%;
   background: linear-gradient(180deg, rgba(250, 252, 253, 0.98), rgba(239, 245, 249, 0.95));
 }
 
