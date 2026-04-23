@@ -296,6 +296,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.hero-actions .button-primary {
+  min-width: 12.6rem;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -323,7 +327,6 @@ video {
 }
 
 .profile-links {
-  margin-bottom: 1.5rem;
   color: var(--muted);
   font-weight: 500;
   gap: 0.7rem;
@@ -466,8 +469,10 @@ video {
 
 .hero-media {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 
 .hero-portrait {
@@ -491,6 +496,23 @@ video {
   margin-top: 0.7rem;
 }
 
+.hero-media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.hero-media-links .button-secondary {
+  min-height: 2.95rem;
+  padding-inline: 1.05rem;
+}
+
+.hero-media-links .profile-links {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
 .research-grid,
 .activities-grid {
   display: grid;
@@ -500,6 +522,11 @@ video {
 
 #research .research-grid {
   align-items: start;
+}
+
+#research .research-grid {
+  grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.78fr);
+  gap: 1.2rem;
 }
 
 .research-panel,
@@ -527,7 +554,13 @@ video {
 }
 
 .research-panel-circles {
-  grid-column: span 2;
+  grid-column: span 1;
+}
+
+.research-sidebars {
+  display: grid;
+  gap: 1rem;
+  align-self: start;
 }
 
 .circle-cluster {
@@ -574,11 +607,13 @@ video {
 }
 
 .core-circle-mobile {
-  width: 8rem;
-  height: 8rem;
-  left: 3%;
-  top: 8%;
+  width: 8.8rem;
+  height: 8.8rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-34%, -104%);
   background: linear-gradient(180deg, rgba(248, 252, 253, 0.98), rgba(237, 244, 248, 0.94));
+  z-index: 3;
 }
 
 .core-circle-recovery {
@@ -802,11 +837,24 @@ video {
     grid-template-columns: 1fr;
   }
 
+  #research .research-grid {
+    grid-template-columns: 1fr;
+  }
+
   .activities-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .hero-media {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .hero-media-links {
+    align-items: flex-start;
+  }
+
+  .hero-media-links .profile-links {
     justify-content: flex-start;
   }
 }
@@ -854,6 +902,7 @@ video {
   .hero-media {
     order: 2;
     justify-content: flex-start;
+    align-items: center;
   }
 
   .hero-copy h1 {
@@ -871,6 +920,14 @@ video {
 
   .hero-highlights {
     grid-template-columns: 1fr;
+  }
+
+  .hero-media-links {
+    align-items: center;
+  }
+
+  .hero-media-links .profile-links {
+    justify-content: center;
   }
 
   .circle-cluster {
