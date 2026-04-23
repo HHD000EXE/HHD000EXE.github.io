@@ -282,7 +282,6 @@ video {
   font-weight: 600;
 }
 
-.hero-actions,
 .profile-links,
 .link-row,
 .footer-links {
@@ -290,14 +289,6 @@ video {
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-.hero-actions {
-  margin-bottom: 1rem;
-}
-
-.hero-actions .button-primary {
-  min-width: 12.6rem;
 }
 
 .button {
@@ -501,6 +492,11 @@ video {
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+  width: min(100%, 17.5rem);
+}
+
+.hero-media-links .button {
+  width: 100%;
 }
 
 .hero-media-links .button-secondary {
@@ -611,9 +607,9 @@ video {
   height: 8.8rem;
   left: 50%;
   top: 50%;
-  transform: translate(-34%, -104%);
+  transform: translate(-50%, -90%);
   background: linear-gradient(180deg, rgba(248, 252, 253, 0.98), rgba(237, 244, 248, 0.94));
-  z-index: 3;
+  z-index: 4;
 }
 
 .core-circle-recovery {
