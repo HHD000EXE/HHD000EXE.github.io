@@ -561,7 +561,7 @@ video {
 
 .circle-cluster {
   position: relative;
-  min-height: 28rem;
+  min-height: 29rem;
   margin-top: 0.8rem;
 }
 
@@ -585,7 +585,7 @@ video {
   height: 13rem;
   left: 50%;
   top: 50%;
-  transform: translate(-82%, -58%);
+  transform: translate(-88%, -46%);
   background: linear-gradient(180deg, rgba(255, 252, 247, 0.98), rgba(248, 241, 234, 0.94));
   font-size: 1.1rem;
   z-index: 2;
@@ -596,35 +596,35 @@ video {
   height: 11.5rem;
   left: 50%;
   top: 50%;
-  transform: translate(8%, -36%);
+  transform: translate(6%, -16%);
   background: linear-gradient(180deg, rgba(240, 247, 251, 0.98), rgba(228, 239, 247, 0.95));
   font-size: 1.02rem;
   z-index: 2;
 }
 
 .core-circle-mobile {
-  width: 8.8rem;
-  height: 8.8rem;
+  width: 7.2rem;
+  height: 7.2rem;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -90%);
+  transform: translate(-28%, -92%);
   background: linear-gradient(180deg, rgba(248, 252, 253, 0.98), rgba(237, 244, 248, 0.94));
-  z-index: 4;
+  z-index: 3;
 }
 
 .core-circle-recovery {
   width: 8.25rem;
   height: 8.25rem;
-  right: 4%;
-  top: 10%;
+  right: 2%;
+  top: 8%;
   background: linear-gradient(180deg, rgba(255, 252, 247, 0.98), rgba(245, 237, 230, 0.95));
 }
 
 .core-circle-robot {
   width: 7rem;
   height: 7rem;
-  left: 16%;
-  bottom: 10%;
+  left: 10%;
+  bottom: 14%;
   background: linear-gradient(180deg, rgba(244, 249, 252, 0.98), rgba(232, 241, 247, 0.95));
 }
 
@@ -632,23 +632,23 @@ video {
   width: 7.4rem;
   height: 7.4rem;
   left: 42%;
-  bottom: 0;
+  bottom: 3%;
   background: linear-gradient(180deg, rgba(255, 252, 247, 0.98), rgba(247, 241, 235, 0.95));
 }
 
 .core-circle-policy {
   width: 6.8rem;
   height: 6.8rem;
-  right: 23%;
-  bottom: 7%;
+  right: 27%;
+  bottom: 10%;
   background: linear-gradient(180deg, rgba(242, 248, 252, 0.98), rgba(231, 239, 246, 0.95));
 }
 
 .core-circle-multi {
   width: 7.6rem;
   height: 7.6rem;
-  right: 2%;
-  bottom: 16%;
+  right: 1%;
+  bottom: 22%;
   background: linear-gradient(180deg, rgba(250, 252, 253, 0.98), rgba(239, 245, 249, 0.95));
 }
 
