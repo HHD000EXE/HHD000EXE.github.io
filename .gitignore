@@ -1,0 +1,36 @@
+# Local drafts, screenshots, and generated previews
+GithubSafetyCode.txt
+circle-*.png
+hero-*.png
+homepage-*.png
+news-before-research.png
+palette-balance.png
+publications-*.png
+website-polish-*.png
+
+# LaTeX source and build artifacts kept outside the published site
+*.aux
+*.log
+*.out
+*.tex
+*_check-*.png
+*_preview-*.png
+MERL_research_statement.pdf
+
+# Raw or duplicate media that is not referenced by the site
+IMG_1513.MOV
+IMG_1528.MOV
+IMG_1529.MOV
+GRAIN_CoRL-contact.jpg
+GRAIN_CoRL-poster.jpg
+GRAIN_CoRL.mp4
+GRAIN_IROS_with_captions.mov
+Haodi Hu 2 zoom in.jpg
+Haodi Hu 2.jpg
+Haodi Hu_CV 2026 spring.pdf
+Haodi_Hu_CV_2025_summer.txt
+Haodi_Hu_CV_2026_spring.txt
+ReCoVLA-poster.jpg
+ReCoVLA.pdf
+Sandisk intern
+recovla/ReCoVLA overview video.mp4
