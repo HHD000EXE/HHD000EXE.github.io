@@ -38,6 +38,22 @@ const revealObserver = new IntersectionObserver(
 
 document.querySelectorAll(".reveal").forEach((item) => revealObserver.observe(item));
 
+document.querySelectorAll(".speed-preview").forEach((video) => {
+  const setPreviewSpeed = () => {
+    const configuredRate = Number(video.dataset.playbackRate);
+
+    if (!Number.isFinite(configuredRate) || configuredRate <= 0) {
+      return;
+    }
+
+    video.defaultPlaybackRate = configuredRate;
+    video.playbackRate = configuredRate;
+  };
+
+  video.addEventListener("loadedmetadata", setPreviewSpeed);
+  video.addEventListener("play", setPreviewSpeed);
+});
+
 const updateActiveLink = () => {
   const scrollPosition = window.scrollY + 140;
 
