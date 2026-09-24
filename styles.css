@@ -356,6 +356,10 @@ video {
   gap: 1rem;
 }
 
+.hero-highlights > :only-child {
+  grid-column: 1 / -1;
+}
+
 .highlight-card,
 .research-panel,
 .publication-card,
