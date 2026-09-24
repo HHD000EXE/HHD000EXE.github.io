@@ -1,6 +1,6 @@
 # ReCoVLA Anonymous Project Website
 
-This folder contains the anonymous supplementary website for the CoRL submission:
+This folder contains the anonymous supplementary website for the ICRA submission and IROS 5th MOMA Workshop spotlight paper:
 
 **ReCoVLA: VLM-Guided Reward Compilation for Failure Recovery in Vision-Language-Action Policies**
 

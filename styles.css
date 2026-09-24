@@ -751,6 +751,16 @@ video {
   margin: 1.05rem 0 1.15rem;
 }
 
+.tacsushi-feature .tacsushi-overview-frame {
+  margin: 1.05rem 0 1.15rem;
+  aspect-ratio: 16 / 9;
+  background: #f7fbfd;
+}
+
+.tacsushi-overview-frame video {
+  object-fit: contain;
+}
+
 .dual-video-frame {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
